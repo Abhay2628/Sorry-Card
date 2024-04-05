@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SORRY CARD</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <audio class="song" controls autoplay>
+        <source src="./media/Tu Jo Rutha To Kon Hasega Sonu Ke Titu Ki Sweety.mp3" type="audio/mpeg">
+       Your browser isn't invited for super fun audio time.
+    </audio>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Ooye meri pyari Moti,</strong>
+                        <p>
+                            Sun na manta hu ki maine tujhe 12 baje wish nahi kiya &#128554 but mai tera birthday bhula thodi na tha, wo to mai so gaya tha kyuki mera tabeyat thk nahi lag raha tha &#129301.
+                            Ek baat bata tere paida hone ki kushi mai thodi na 1 din manata hu...teri paida hone ki kushi to mujhe roz hoti h&#x1F917.
+                            But phir bhi I am sorry ki maine tujhe wish karne me late kar diya&#128546.
+                            Ab dekho jada naak muh na fulao pyar se maafi mang rahe h de do warna jabardasti bhi lena ata h&#128540.
+                            Jokes apart I am sorry ki mai late ho gaya meri moti. Please naraz na hona &#128591.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+            audioElement.play();
+        });
+    </script>
+</body>
+</html>
